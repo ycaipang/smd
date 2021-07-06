@@ -1,0 +1,20 @@
+address_autocomplete_photon.settings:
+  type: config_object
+  label: 'Address Autocomplete Photon settings'
+  mapping:
+    autocomplete:
+      type: mapping
+      label: 'Autocomplete UX'
+      mapping:
+        min_length:
+          type: integer
+          label: 'Autocomplete minimal input length'
+        limit:
+          type: integer
+          label: 'Autocomplete number of results'
+        remove_duplicates:
+            type: boolean
+            label: 'Remove duplicates from the Photon API'
+        managed_fields_display:
+            type: string
+            label: 'Hide or disable managed fields'

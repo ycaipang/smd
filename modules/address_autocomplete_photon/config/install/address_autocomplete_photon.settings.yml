@@ -1,0 +1,5 @@
+autocomplete:
+  min_length: 1
+  limit: 3
+  remove_duplicates: true
+  managed_fields_display: hide

@@ -1,0 +1,11 @@
+{
+    "name": "drupal/address_autocomplete_photon",
+    "type": "drupal-module",
+    "description": "Provides functionality for automatically filling address fields from Photon API.",
+    "homepage": "http://drupal.org/project/address_autocomplete_photon",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": "^8 || ^9",
+        "drupal/address": "^1.0"
+    }
+}

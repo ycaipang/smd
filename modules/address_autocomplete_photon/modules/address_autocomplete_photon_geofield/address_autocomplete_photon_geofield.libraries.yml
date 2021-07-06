@@ -1,0 +1,5 @@
+autocomplete:
+  js:
+    js/address-autocomplete.js: { }
+  dependencies:
+    - address_autocomplete_photon/autocomplete

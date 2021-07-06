@@ -1,0 +1,16 @@
+name: 'Address Autocomplete (with Photon API)'
+type: module
+description: 'Provides an autocomplete field for the address module through the open source Photon API.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Field types'
+
+dependencies:
+  - address:address
+
+configure: address_autocomplete_photon.configure
+
+# Information added by Drupal.org packaging script on 2021-03-07
+version: '1.0.0'
+project: 'address_autocomplete_photon'
+datestamp: 1615139400

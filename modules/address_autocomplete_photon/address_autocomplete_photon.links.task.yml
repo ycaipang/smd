@@ -1,0 +1,4 @@
+address_autocomplete_photon.configure:
+  route_name: address_autocomplete_photon.configure
+  base_route: address_autocomplete_photon.configure
+  title: 'Configure'

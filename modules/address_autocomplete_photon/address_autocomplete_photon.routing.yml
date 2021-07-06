@@ -1,0 +1,7 @@
+address_autocomplete_photon.configure:
+  path: '/admin/config/system/address-autocomplete-photon'
+  defaults:
+    _form: '\Drupal\address_autocomplete_photon\Form\SettingsForm'
+    _title: 'Address autocomplete Photon configure'
+  requirements:
+    _permission: 'administer address autocomplete photon'

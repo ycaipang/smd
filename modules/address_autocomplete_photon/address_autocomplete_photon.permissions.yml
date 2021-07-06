@@ -1,0 +1,4 @@
+administer address autocomplete photon:
+  title: 'Administer Address Autocomplete Photon'
+  description: 'Allows configuring autocomplete User eXperience.'
+  restrict access: TRUE

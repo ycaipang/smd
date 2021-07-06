@@ -1,0 +1,13 @@
+autocomplete:
+  js:
+    js/address-autocomplete.js: { }
+  dependencies:
+    - address_autocomplete_photon/autocomplete-plugin
+
+autocomplete-plugin:
+  js:
+    js/plugin/address-autocomplete-photon.jquery.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery.once
+    - core/jquery.ui.autocomplete

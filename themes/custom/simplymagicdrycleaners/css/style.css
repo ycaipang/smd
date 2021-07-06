@@ -1,0 +1,335 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    font-family: 'Raleway', sans-serif;
+}
+.view-product-list img.img-responsive {
+    height: 250px;
+    object-fit: cover;
+}
+
+.title-price h2, .title-price div {
+    font-size: 16px;
+    display: inline;
+
+}
+.title-price h2 {
+    font-weight: 600;
+}
+.views-field-variations-target-id label.control-label {
+    display: none;
+}
+.views-field-variations-target-id input.form-number {
+    width: 30%;
+}
+.views-field.views-field-variations-target-id, .views-field.views-field-variations-target-id form div {
+    display: inline;
+}
+.equalheights {
+    background: #f8f8f8;
+    padding: 0;
+    border: 15px solid #fff;
+    box-shadow: 0px 5px 8px 2px #dddddda6;
+}
+.view-product-list .views-field.views-field-variations-target-id-1 {
+    margin: 10px 5px;
+}
+.view-product-list .views-field.views-field-variations-target-id span form {
+    padding: 15px 5px;
+}
+
+.view-product-list .view-filters {
+    display: none;
+}
+.prod-nav img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.prod-nav div {
+    text-align: center;
+    margin-left: 28px;
+    padding: 0;
+}
+
+.prod-nav a:hover, .prod-nav a:focus  {
+    text-decoration: unset;
+}
+.main-container .view-header {
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #4e9fd7;
+    border-color: #337ab7;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success:active:hover  {
+    color: #337ab7;
+    background-color: #fff;
+    border-color: unset;
+}
+.btn-success.btn:focus {
+    outline: unset;
+}
+.button--add-to-cart {
+    border-radius: unset;
+}
+.header-link-icons {
+    padding: 0;
+}
+
+.header-top {
+    text-align: center;
+    background: #d0d0d0;
+    padding: 10px 0;
+}
+
+body {
+    font-family: 'Lato';
+}
+.burger {
+    display: none;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.header-link-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-nav {
+    background-color: #efefef;
+    height: 18vh;
+    display: flex;
+    border-bottom: 2px solid #fbca32;
+}
+.logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.header-nav-links {
+    /* display: flex; */
+    justify-content: space-around;
+    list-style: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-nav-active {
+    transform: translateX(0%)
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+.header-nav-inner {
+    width: 1170px;
+    padding: 5px 0;
+}
+#particles-js {
+    height: 400px;
+    /* background: #e2e2fd; */
+    background-image: url("/themes/custom/simplymagicdrycleaners/images/slider-img-front.jpg")
+}
+
+.showme li {
+    text-transform: uppercase;
+    color: black;
+}
+.showme li a {
+    color: #333;
+}
+.region.region-header h1 {
+    display: none;
+}
+.main-container section {
+    margin-bottom: 50px;
+    min-height: 400px;
+}
+
+.main-container .region-content section img {
+    height: 400px;
+}
+.block-container .col-image {
+    width: 30%;
+}
+.block-container .col-desc {
+    width: 70%;
+}
+.block-container {
+    display: flex;
+    align-items: center;
+}
+.block-container div {
+    padding: 20px;
+}
+.col-desc {
+    text-align: justify;
+}
+.col-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+section#block-svgcol div {
+    text-align: center;
+}
+section#block-svgcol svg {
+    width: 65%;
+}
+section#block-svgcol h1 {
+    margin-bottom: 50px;
+}
+
+h1.frontpage-header {
+    text-align: center;
+    font-family: 'Fuggles', cursive;
+    font-size: 100px;
+    margin: 50px 0;
+}
+.well.region.region-sidebar-second {
+    margin-top: 5vh;
+    height: 60vh;
+    background-color: #f9f9f9;
+}
+
+/* new nav menus */
+.prod-nav svg {
+    width: 50px;
+    height: 50px;
+}
+.prod-nav {
+    display: flex;
+    list-style: none;
+    width: 60%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 50px;
+}
+ul.prod-nav li {
+    text-align: center;
+}
+
+.prod-nav a p {
+    color: #313131;
+    font-weight: 400;
+}
+
+button.btn.order-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: #fbca32;
+}
+.particles-desc p {
+    font-size: 25px;
+}
+.particles-desc {
+    width: 55%;
+    padding: 100px 50px;
+    position: absolute;
+}
+.prod-nav svg:hover {
+    background-color: #fbca32;
+    transform: scale(1.2);
+    -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transition: 0.5s ease;
+}
+
+.prod-nav svg:visited {
+    background-color: #fbca32;
+}
+.prod-nav a p {
+    font-weight: 400;
+    color: #686969;
+}
+.prod-nav svg {
+    fill: #fdfcf9;
+    background-color: #9b9fa0;
+    border-radius: 50px;
+    transition: 0.5s ease;
+}
+
+section#block-simplenewssubscription .field--type-email input {
+    height: 50px;
+}
+section#block-simplenewssubscription .field--type-email {
+    width: 50%;
+    margin: 0 auto;
+}
+section#block-simplenewssubscription {
+    min-height: 200px;
+    text-align: center;
+    background: #efefef;
+    padding: 30px;
+    border-radius: 5px;
+}
+section#block-simplenewssubscription label {
+    font-size: 16px;
+}
+section#block-simplenewssubscription #edit-subscribe {
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #fbca32;
+}
+.row.smd-footer ul {
+    list-style: none;
+}
+.row.smd-footer div {
+    text-align: center;
+}
+.row.smd-footer ul li {
+    padding: 10px 0;
+}
+
+.footer {
+    background-color: #404040;
+    border-top: 2px solid #fbca32!important;
+}
+.smd-footer ul li a {
+    color: #fff;
+}
+button.btn.order-btn a:hover {
+    text-decoration: none;
+}
+button.btn.order-btn a {
+    color: #404040;
+}

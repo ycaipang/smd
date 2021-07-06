@@ -1,0 +1,15 @@
+name: 'Address Autocomplete (with Photon API) - Geofield prepropulate'
+type: module
+description: 'Provides functionality for automatically filling Geofields on user address autocomplete selection.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Field types'
+
+dependencies:
+  - address_autocomplete_photon:address_autocomplete_photon
+  - geofield:geofield
+
+# Information added by Drupal.org packaging script on 2021-03-07
+version: '1.0.0'
+project: 'address_autocomplete_photon'
+datestamp: 1615139400

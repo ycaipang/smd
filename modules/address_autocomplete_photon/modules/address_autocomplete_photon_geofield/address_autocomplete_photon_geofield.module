@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Provides functionality for handling "GeoField" prefilling.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function address_autocomplete_photon_geofield_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.address_autocomplete_photon_geofield':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides functionality for automatically filling Geofields on user address autocomplete selection.') . '</p>';
+      return $output;
+  }
+}
+
+/**
+ * Implements hook_field_widget_form_alter().
+ */
+function address_autocomplete_photon_geofield_field_widget_form_alter(&$element, FormStateInterface $form_state, $context) {
+  /** @var \Drupal\Core\Field\FieldDefinitionInterface $field_definition */
+  $field_definition = $context['items']->getFieldDefinition();
+
+  // Attach a library to widget form elements for all fields of type "geofield".
+  if ($field_definition->getType() === 'geofield') {
+    $element['#attached']['library'][] = 'address_autocomplete_photon_geofield/autocomplete';
+  }
+}
